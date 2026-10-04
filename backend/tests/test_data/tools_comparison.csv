@@ -1,0 +1,5 @@
+tool,category,local,description
+Qdrant,Vector DB,yes,Open-source vector search engine written in Rust
+Milvus,Vector DB,yes,Scalable open-source vector database for AI applications
+TigerGraph,Graph DB,no,Distributed graph database for enterprise analytics
+Ollama,LLM Runtime,yes,Tool for running LLMs locally on consumer hardware

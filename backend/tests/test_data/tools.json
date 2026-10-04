@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "Ollama",
+    "description": "Ollama is an open-source tool for running large language models locally. It simplifies the process of downloading, configuring, and serving LLMs on consumer hardware."
+  },
+  {
+    "topic": "Qwen3",
+    "description": "Qwen3 is a family of language models developed by Alibaba Cloud. The 4B variant has 4 billion parameters and offers a good balance between capability and resource requirements for local deployment."
+  },
+  {
+    "topic": "Sentence Transformers",
+    "description": "Sentence Transformers is a Python library for computing dense vector representations of sentences and paragraphs. The all-MiniLM-L6-v2 model produces 384-dimensional embeddings and is widely used for semantic search."
+  }
+]

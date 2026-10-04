@@ -1,0 +1,21 @@
+Retrieval-Augmented Generation (RAG) Overview
+
+RAG is a technique that combines information retrieval with text generation.
+Instead of relying solely on a language model's parametric knowledge, RAG
+systems first retrieve relevant documents from an external knowledge base,
+then use those documents as context for generating answers.
+
+The key advantage of RAG is that it grounds the model's output in factual
+evidence, significantly reducing hallucinations. This makes RAG particularly
+useful for enterprise applications where accuracy is critical, such as
+legal research, medical question answering, and customer support.
+
+A typical RAG pipeline consists of three stages:
+1. Embedding: The user's query is converted into a dense vector representation.
+2. Retrieval: The query vector is used to find the most similar document chunks
+   in a vector database using approximate nearest neighbor search.
+3. Generation: The retrieved chunks are provided as context to a large language
+   model, which generates a grounded answer citing the source material.
+
+Popular vector databases for RAG include Qdrant, Milvus, Pinecone, and Weaviate.
+Each offers different trade-offs in terms of performance, scalability, and features.

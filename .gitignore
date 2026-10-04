@@ -1,0 +1,46 @@
+# Environments
+.env
+.env.*
+!.env.example
+
+# Evaluation Data
+eval_hidden.jsonl
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+qdrant_data/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# Temporary and Scratch files
+scratch/
+tmp/
+temp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Benchmark Output
+benchmark_results*.md
+smoke_report.json
+smoke_test.log
+smoke_test_utf8.log
+data/exports/
+backend/data/exports/
